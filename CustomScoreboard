@@ -2,13 +2,6 @@ include("customscoreboard_config.lua")
 local Config = CustomScoreboard_Config
 local ScoreboardDerma = nil
 local PlayerList = nil
-local MatGradientUp = Material("vgui/gradient-u")
-local MatGradientDown = Material("vgui/gradient-d")
-
-
-hook.Add("Tick", "SSTick", function
-	
-end
 
 function GM:ScoreboardShow()
 	if !IsValid(ScoreboardDerma) then
