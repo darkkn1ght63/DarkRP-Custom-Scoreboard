@@ -1,0 +1,639 @@
+---------------------------------------------------------
+					-- Pistols --
+---------------------------------------------------------
+
+DarkRP.createShipment("Python", {
+	model = "models/weapons/w_colt_python.mdl",
+	entity = "m9k_coltpython",
+	price = 2500,
+	amount = 10,
+	separate = false,
+	pricesep = 250,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+    category = "Pistols"
+})
+	
+DarkRP.createShipment("Colt 1911", {
+	model = "models/weapons/s_dmgf_co1911.mdl",
+	entity = "m9k_colt1911",
+	price = 1200,
+	amount = 10,
+	separate = false,
+	pricesep = false,
+    noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	category = "Pistols"
+})
+
+DarkRP.createShipment("Luger", {
+	model = "models/weapons/w_luger_p08.mdl",
+	entity = "m9k_luger",
+	price = 1200,
+	amount = 10,
+	separate = false,
+	pricesep = 120,
+    noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	category = "Pistols"
+})
+
+DarkRP.createShipment("Raging Bull", {
+	model = "models/weapons/w_hk45c.mdl",
+	entity = "m9k_ragingbull",
+	price = 3000,
+	amount = 10,
+	separate = false,
+	pricesep = 300,
+    noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	category = "Pistols"
+})
+
+DarkRP.createShipment("S&W 500", {
+	model = "models/weapons/w_sw_model_500.mdl",
+	enitity = "m9k_model500",
+	price = 2750,
+	amount = 10,
+	seperate = false,
+	pricesep = 2750,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	category = "Pistols",
+})
+
+DarkRP.createShipment("M29 Satan", {
+	model = "models/weapons/w_m29_satan.mdl",
+	enitity = "m9k_m29satan",
+	price = 3000,
+	amount = 10,
+	seperate = false,
+	pricesep = 300,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	category = "Pistols",
+})
+
+DarkRP.createShipment("Baretta", {
+	model = "models/weapons/w_beretta_m92.mdl",
+	enitity = "m9k_m92baretta",
+	price = 1400,
+	amount = 10,
+	seperate = false,
+	pricesep = 140,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Pistols",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("S&W Model 3 Russian", {
+	model = "models/weapons/w_model_3_rus.mdl",
+	enitity = "m9k_model3russian",
+	price = 3000,
+	amount = 10,
+	seperate = false,
+	pricesep = 300,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Pistols",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("S&W 627", {
+	model = "models/weapons/w_sw_model_627.mdl",
+	enitity = "m9k_model627",
+	price = 3000,
+	amount = 10,
+	seperate = false,
+	pricesep = 300,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Pistols",
+	sortOrder = 100
+})
+
+---------------------------------------------------------
+				-- Assault Rifles --
+---------------------------------------------------------
+
+DarkRP.createShipment("Acr", {
+	model = "models/weapons/w_masada_acr.mdl",
+	enitity = "m9k_acr",
+	price = 4000,
+	amount = 10,
+	seperate = false,
+	pricesep = 400,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Assault Rifles",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("AMD 65", {
+	model = "models/weapons/w_amd_65.mdl",
+	enitity = "m9k_amd65",
+	price = 5000,
+	amount = 10,
+	seperate = false,
+	pricesep = 500,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Assault Rifles",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("FN FAL", {
+	model = "models/weapons/w_fn_fal.mdl",
+	enitity = "m9k_fal",
+	price = 4000,
+	amount = 10,
+	seperate = false,
+	pricesep = 400,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Assault Rifles",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("M14", {
+	model = "models/weapons/w_snip_m14sp.mdl",
+	enitity = "m9k_m14sp",
+	price = 5000,
+	amount = 10,
+	seperate = false,
+	pricesep = 500,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Assault Rifles",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("M16 Scoped", {
+	model = "models/weapons/w_dmg_m16ag.mdl",
+	enitity = "m9k_m16a4_acog",
+	price = 5250,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Assault Rifles",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("HK 16", {
+	model = "models/weapons/w_hk_416.mdl",
+	enitity = "m9k_m416",
+	price = 5000,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Assault Rifles",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("Scar", {
+	model = "models/weapons/w_fn_scar_h.mdl",
+	enitity = "m9k_scar",
+	price = 5000,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Assault Rifles",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("TAR-21", {
+	model = "models/weapons/w_imi_tar21.mdl",
+	enitity = "m9k_tar21",
+	price = 5000,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Assault Rifles",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("Val", {
+	model = "models/weapons/w_dmg_vally.mdl",
+	enitity = "m9k_val",
+	price = 5575,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Assault Rifles",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("SR-3M Vikhr", {
+	model = "models/weapons/w_dmg_vikhr.mdl",
+	enitity = "m9k_vikhr",
+	price = 5000,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Assault Rifles",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("Winchester 73", {
+	model = "models/weapons/w_winchester_1873.mdl",
+	enitity = "m9k_winchester73",
+	price = 3500,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Assault Rifles",
+	sortOrder = 100
+})
+
+---------------------------------------------------------
+					-- Shotguns --
+---------------------------------------------------------
+
+DarkRP.createShipment("1887 Winchester", {
+	model = "models/weapons/w_winchester_1887.mdl",
+	enitity = "m9k_1887winchester",
+	price = 4000,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Shotguns",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("Double Barrel", {
+	model = "models/weapons/w_double_barrel_shotgun.mdl",
+	enitity = "m9k_dbarrel",
+	price = 8000,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Shotguns",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("Jack Hammer", {
+	model = "models/weapons/w_pancor_jackhammer.mdl",
+	enitity = "m9k_jackhammer",
+	price = 8000,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Shotguns",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("Benelli M3", {
+	model = "models/weapons/w_benelli_m3.mdl",
+	enitity = "m9k_m3",
+	price = 4500,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Shotguns",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("Ithaca M37", {
+	model = "models/weapons/w_ithaca_m37.mdl",
+	enitity = "m9k_ithacam37",
+	price = 3000,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Shotguns",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("Mossberg", {
+	model = "models/weapons/w_mossberg_590.mdl",
+	enitity = "m9k_mossberg590",
+	price = 3000,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Shotguns",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("Remington 870", {
+	model = "models/weapons/w_remington_870_tact.mdl",
+	enitity = "m9k_remington870",
+	price = 2500,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Shotguns",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("1897 Winchester", {
+	model = "models/weapons/w_winchester_1897_trench.mdl",
+	enitity = "m9k_1897winchester",
+	price = 4000,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Shotguns",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("XM1014", {
+	model = "models/weapons/w_shot_xm1014.mdl",
+	enitity = "weapon_mad_xm1014",
+	price = 9000,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Shotguns",
+	sortOrder = 100
+})
+
+---------------------------------------------------------
+					 -- Snipers --
+---------------------------------------------------------
+
+DarkRP.createShipment("SVT 40", {
+	model = "models/weapons/w_svt_40.mdl",
+	enitity = "m9k_svt40",
+	price = 1800,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Snipers",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("Dragunov SVU", {
+	model = "models/weapons/w_dragunov_svu.mdl",
+	enitity = "m9k_svu",
+	price = 8000,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Snipers",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("SVD Dragunov", {
+	model = "models/weapons/w_svd_dragunov.mdl",
+	enitity = "m9k_dragunov",
+	price = 8500,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Snipers",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("Intervention", {
+	model = "models/weapons/v_snp_int.mdl",
+	enitity = "m9k_intervention",
+	price = 12500,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Snipers",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("PSG-1", {
+	model = "models/weapons/w_hk_psg1.mdl",
+	enitity = "m9k_psg1",
+	price = 7000,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Snipers",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("AW 50", {
+	model = "models/weapons/w_acc_int_aw50.mdl",
+	enitity = "m9k_aw50",
+	price = 10000,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Snipers",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("M24", {
+	model = "models/weapons/w_snip_m24_6.mdl",
+	enitity = "m9k_m24",
+	price = 7000,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Snipers",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("Remington 7615P", {
+	model = "models/weapons/w_remington_7615p.mdl",
+	enitity = "m9k_remington7615p",
+	price = 8000,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Snipers",
+	sortOrder = 100
+})
+
+---------------------------------------------------------
+					-- BlackMarket --
+---------------------------------------------------------
+
+DarkRP.createShipment("Sticky Grenade", {
+	model = "models/weapons/w_grenade.mdl",
+	enitity = "m9k_sticky_grenade",
+	price = 10000,
+	amount = 1,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_BLACK, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Other",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("Grenade", {
+	model = "models/weapons/w_grenade.mdl",
+	enitity = "m9k_sticky_grenade",
+	price = 10000,
+	amount = 1,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_BLACK, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Other",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("Proxy Mine", {
+	model = "models/weapons/w_px.mdl",
+	enitity = "m9k_sticky_grenade",
+	price = 10000,
+	amount = 1,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_BLACK, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Snipers",
+	sortOrder = 100
+})
+
+---------------------------------------------------------
+					-- Machine Guns --
+---------------------------------------------------------
+
+DarkRP.createShipment("FG42", {
+	model = "models/weapons/w_fg42.mdl",
+	enitity = "m9k_fg42",
+	price = 5000,
+	amount = 10,
+	seperate = false,
+	noship = false,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Machine Guns",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("M60", {
+	model = "models/weapons/w_m60_machine_gun.mdl",
+	enitity = "m9k_fg42",
+	price = 20000,
+	amount = 1,
+	seperate = true,
+	noship = true,
+	allowed = {TEAM_GUN, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Machine Guns",
+	sortOrder = 100
+})
+
+---------------------------------------------------------
+					-- Melee --
+---------------------------------------------------------
+
+DarkRP.createShipment("Butterfly Knife - Fade", {
+	model = "models/weapons/w_csgo_butterfly.mdl",
+	enitity = "csgo_butterfly_fade",
+	price = 10000,
+	amount = 1,
+	seperate = true,
+	noship = true,
+	allowed = {TEAM_BLADE, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Melee",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("Bowie Knife - Blue Steel", {
+	model = "models/weapons/w_csgo_bowie.mdl",
+	enitity = "csgo_bowie_bluesteel",
+	price = 10000,
+	amount = 1,
+	seperate = true,
+	noship = true,
+	allowed = {TEAM_BLADE, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Melee",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("Shadow Dagger - Marble Fade", {
+	model = "models/weapons/w_csgo_push.mdl",
+	enitity = "csgo_daggers_marblefade",
+	price = 10000,
+	amount = 1,
+	seperate = true,
+	noship = true,
+	allowed = {TEAM_BLADE, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Melee",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("Huntsman - Crimson Web", {
+	model = "models/weapons/w_csgo_tactical.mdl",
+	enitity = "csgo_huntsman_crimsonwebs",
+	price = 10000,
+	amount = 1,
+	seperate = true,
+	noship = true,
+	allowed = {TEAM_BLADE, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Melee",
+	sortOrder = 100
+})
+
+DarkRP.createShipment("Flip Knife - Tiger", {
+	model = "models/weapons/w_csgo_flip.mdl",
+	enitity = "csgo_flip_tiger",
+	price = 10000,
+	amount = 1,
+	seperate = true,
+	noship = true,
+	allowed = {TEAM_BLADE, TEAM_MOD},
+	shipmodel = "models/items/item_item_crate.mdl",
+	category = "Melee",
+	sortOrder = 100
+})
